@@ -1,0 +1,203 @@
+
+.row{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.box:hover{
+  background:rgb(200, 200, 210,0.6); /* make this whatever you want */
+  }
+
+
+
+
+
+
+
+/* Containers */
+html, body {
+min-height: 100%;
+}
+
+body {
+font-family: sans-serif;
+background: #42426b;
+background-image: -webkit-linear-gradient(135deg, #8067B7, #EC87C0);
+background-image: linear-gradient(-45deg, #8067B7, #EC87C0);
+color: rgba(255,255,255,.5);
+}
+
+.rb-box {
+width: 80%;
+max-width: 820px;
+margin: 50px auto;
+padding: 1.3em;
+background: #292942;
+border-radius: .75em;
+-webkit-filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+box-shadow: 
+  0 2px 2px rgba(243,49,128,.5),
+  0 0px 5px rgba(243,49,128,.15),
+  0 0px 4px rgba(0,0,0,.35),
+  0 5px 20px rgba(243,49,128,.25),
+  0 15px 50px rgba(243,49,128,.75),
+  inset 0 0 15px rgba(255,255,255,.05);
+}
+
+/* Custom Radio Button */
+p {
+font-size: 1.2em;
+color: rgb(224, 221, 221);
+}
+
+.rb {
+padding: 16px 0;
+text-align: center;
+background: rgba(255,255,255,.03);
+border-radius: .3em;
+}
+
+.rb-tab {
+display: inline-block;
+position: relative;
+width: 10%;
+}
+
+.rb-txt {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: .8em;
+color: #FFFFFF;
+}
+
+.rb-spot{
+position: absolute;
+width: 28px;
+height: 28px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: transparent;
+border: 2px solid rgba(255,255,255,.3);
+border-radius: 100%;
+cursor: pointer;
+transition: ease .5s;
+}
+
+.rb-tab-active .rb-spot {
+/* background: rgba(0,0,0,.35);
+border: 2px solid rgba(243,49,128,.6); */
+background: rgba(255, 255, 255, 0.35);
+border: 2px solid rgba(243,49,128,.6);
+
+
+}
+.rb-tab-active1 .rb-spot {
+background: rgba(236, 36, 36, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+
+
+.rb-tab-active2 .rb-spot {
+background: rgba(247, 72, 28, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+.rb-tab-active3 .rb-spot {
+background: rgba(238, 90, 64, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+.rb-tab-active4 .rb-spot {
+background: rgba(236, 109, 36, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+
+.rb-tab-active5 .rb-spot {
+background: rgba(247, 193, 17, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+.rb-tab-active6 .rb-spot {
+background: rgba(243, 247, 17, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+.rb-tab-active7 .rb-spot {
+background: rgba(213, 247, 17, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+.rb-tab-active8 .rb-spot {
+background: rgba(178, 247, 17, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+.rb-tab-active9 .rb-spot {
+background: rgba(159, 247, 17, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+
+.rb-tab-active10 .rb-spot {
+background: rgba(22, 253, 1, 0.767);
+border: 2px solid rgba(243,49,128,.6);
+}
+
+
+
+/* Submit Button */
+.button-box {
+padding: 10px 0;
+text-align: center;
+}
+
+button {
+display: inline-block;
+width: 80%;
+margin-top: 1.2em;
+padding: 1em;
+max-width: 220px;
+font-size: .9em;
+color: #D42D78;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: .15em;
+background: white;
+border: none;
+outline: none;
+border-radius: 5em;
+box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.3);
+transition: 
+  color 0.6s, 
+  box-shadow 0.3s, 
+  transform 0.3s;
+cursor: pointer;
+}
+
+button:hover {
+box-shadow: 0 3px 5px -5px rgba(0, 0, 0, 0.3);
+color: #6f6f6f;
+}
+
+.rem{
+color: rgb(146, 144, 144);
+
+
+}
+
+p{
+margin-top: 10px;
+}
+
+hr {
+background: linear-gradient(to right, rgb(216, 140, 216), #6f6f6f);
+height: 0.2px;
+}
+
+input { box-shadow: 0 0 3px #CC0000; margin: 10px }
+button:hover
+{
+background-color:rgba(146, 235, 143, 0.603);
+}
+
+button:focus
+{
+background-color:rgba(209, 208, 216, 0.76);
+}
